@@ -1,0 +1,175 @@
+html {
+    padding: 0%;
+}
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(169, 175, 126);
+}
+
+header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(85, 113, 83);
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: flex;
+    font-weight: 600;
+    float: left;
+}
+
+header #logo {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+a:hover {
+    color: rgb(125, 143, 105);
+}
+
+
+#home {
+    background-image: url(./img/01-deforestation-disease.webp);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 850px;
+}
+
+.texto-inicial {
+    text-align: center;
+    display: block;
+    margin-top: 40%;
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to right, #000000, #000000);
+
+}
+
+.titulo2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    background-color: rgb(218, 221, 177);
+    color: #000000;
+    border-bottom: 4px solid rgb(218, 221, 177);
+}
+
+
+.que-hacemos {
+    background-color: rgb(218, 221, 177);
+}
+
+.que-hacemos h3 {
+    text-align: center;
+}
+
+.titulo3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    background-color: rgb(85, 113, 83);
+    color: #000000;
+    border-bottom: 4px solid rgb(85, 113, 83);
+}
+
+
+
+.slogan {
+    text-align: center;
+}
+
+.texto-de-quienes-somos {
+display: block;
+position: relative;
+}
+
+#donar {
+    background-image: url(./img/BBVA-deforestacion-apertura.jpg);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 850px;
+}
+fieldset {
+    background-color: #000000;
+}
+.tabla-de-donacion{
+    text-align: center;
+    background-color: #000000;
+    display: block;
+    margin-top: 40%;
+    max-width: 1000px;
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to right, #000000, #000000);
+}
+
+#iconos {
+    text-align: left;
+    position: relative;
+    top: 150px;
+    left: 0px;
+}
+
+footer {
+    position: relative;
+    left: auto;
+    background-color: rgb(85, 113, 83);
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex;
+    position: relative;
+    text-align: left;
+    top: 150px;
+    left: 0px;
+    max-height: 10px;
+    max-height: 10px;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    align-items: center;
+    max-height: 2000px;
+}
+
+.pf {
+    position: relative;
+    left: 75%;
+}
+
+.logo-copyright {
+    position: relative;
+    max-width: 10px;
+    left: 90%;
+}
+
+.mapa {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: right;
+}

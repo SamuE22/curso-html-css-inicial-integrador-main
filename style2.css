@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(169, 175, 126);
+    margin: 0px;
+}
+
+main img {
+    width: 300px;
+    max-width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    position: relative;
+    align-items: left;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(85, 113, 83);
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: flex;
+    font-weight: 600;
+    float: left;
+}
+
+header #logo {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+a:hover {
+    color: rgb(125, 143, 105);
+}
+
+p {
+    max-width: 92%;
+}
+
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    background-color: rgb(85, 113, 83);
+    color: #000000;
+    border-bottom: 4px solid rgb(85, 113, 83);
+}
+
+.noticas-destacadas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.noticias-recientes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: rgb(85, 113, 83);
+    color: #000000;
+    border-bottom: 4px solid rgb(85, 113, 83);
+}
+
+footer {
+    position: relative;
+    left: auto;
+    background-color: rgb(85, 113, 83);
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex;
+    position: relative;
+    text-align: left;
+    top: 150px;
+    left: 0px;
+    max-height: 10px;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    align-items: center;
+    max-height: 2000px;
+}
+
+.pf {
+    position: relative;
+    left: 75%;
+}
+
+.logo-copyright {
+    position: relative;
+    max-width: 10px;
+    left: 90%;
+}
+
+.mapa {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: right;
+}
